@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		14F7A3522DD4A8F4008B2CE0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 14F7A3512DD4A8F4008B2CE0 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		14F7A3352DD4A6F9008B2CE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		14F7A3272DD4A6F8008B2CE0 /* helloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F7A3342DD4A6F9008B2CE0 /* helloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F7A33E2DD4A6F9008B2CE0 /* helloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F7A3512DD4A8F4008B2CE0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		14F7A31E2DD4A6F8008B2CE0 = {
 			isa = PBXGroup;
 			children = (
+				14F7A3512DD4A8F4008B2CE0 /* .gitignore */,
 				14F7A3292DD4A6F8008B2CE0 /* helloWorld */,
 				14F7A3372DD4A6F9008B2CE0 /* helloWorldTests */,
 				14F7A3412DD4A6F9008B2CE0 /* helloWorldUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F7A3522DD4A8F4008B2CE0 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
